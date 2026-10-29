@@ -1,0 +1,105 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "approve": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pact_id",
+          "string"
+        ],
+        [
+          "result_digest",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "compare": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pact_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_pact": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pact_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "open_pact": {
+      "params": [
+        [
+          "pact_id",
+          "string"
+        ],
+        [
+          "peer",
+          "string"
+        ],
+        [
+          "unit",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "submit_report": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pact_id",
+          "string"
+        ],
+        [
+          "payload",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
